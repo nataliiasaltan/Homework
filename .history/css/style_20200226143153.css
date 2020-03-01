@@ -1,0 +1,46 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    position: absolute;
+}
+
+.container{
+    max-width: 64%;
+    margin: 0 auto;
+}
+
+
+
+/* @font-face {
+    font-family: Font;
+    src: url('font.woff2') format('woff2'),
+         url('font.woff') format('woff');
+  } */
+
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+   font-family: 'Kaushan Script', sans-serif; */

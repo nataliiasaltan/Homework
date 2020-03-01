@@ -1,0 +1,145 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.container{
+    max-width: 64%;
+    margin: 0 auto;
+}
+
+.header__wrapper,
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    align-self: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    /* не показівается ссылка */
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-right: 22px;
+}
+
+.nav-list a{
+   color: #ffffff;
+   padding: 12px 25px;
+   border-bottom: 1px solid transparent;
+   text-transform: uppercase;
+}
+
+.nav-list a:hover{
+    color: #fce38a;
+    border-bottom: 1px solid #fce38a;
+}
+
+.booking{
+    margin-left: 22px;
+    align-self: center;
+}
+
+.icon-shopping-cart,
+.icon-search{
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.about{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 120px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about__container{
+    min-width: 43%;
+    margin: 0 auto;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: relative;
+}
+
+.about__inner{
+    
+}
+
+.creative{
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    text-align: center;
+}
+
+.about__title{
+    color: #ffffff;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 0.93;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.about__btn{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 160px;
+    margin: 0 auto; 
+    padding: 15px 32px 14px 33px;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+

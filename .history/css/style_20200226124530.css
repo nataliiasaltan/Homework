@@ -1,0 +1,21 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.container{
+    width: 64%;
+    margin: 0 auto;
+}
+
+/* @font-face {
+    font-family: Font;
+    src: url('font.woff2') format('woff2'),
+         url('font.woff') format('woff');
+  } */
+
+  /* font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+   font-family: 'Kaushan Script', sans-serif; */
